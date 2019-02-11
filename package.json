@@ -2,6 +2,7 @@
   "name": "react-ui-components-master",
   "dependencies": {
     "@emotion/core": "^10.0.7",
+    "@emotion/css": "^10.0.7",
     "@fortawesome/fontawesome-svg-core": "^1.2.14",
     "@fortawesome/free-solid-svg-icons": "^5.7.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-emotion": "^10.0.7",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-node": "^8.0.0",

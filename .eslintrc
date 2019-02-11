@@ -21,10 +21,13 @@
     "import",
     "promise",
     "prettier",
-    "jsx-a11y"
+    "jsx-a11y",
+    "emotion"
   ],
   "rules": {
     "react/prop-types": "off",
+    "no-unused-vars": "off",
+    "react/no-unused-vars": "off",
     "react/jsx-filename-extension": [
       1,
       {
