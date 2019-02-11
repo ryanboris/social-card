@@ -1,6 +1,11 @@
 {
   "name": "react-ui-components-master",
   "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@fortawesome/fontawesome-svg-core": "^1.2.14",
+    "@fortawesome/free-solid-svg-icons": "^5.7.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "moment": "^2.24.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.4"
@@ -29,8 +34,6 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "prettier": "^1.16.4",
-    "stylelint": "^9.10.1",
-    "stylelint-config-standard": "^18.2.0"
+    "prettier": "^1.16.4"
   }
 }

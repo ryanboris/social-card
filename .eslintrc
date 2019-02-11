@@ -32,10 +32,6 @@
           ".js"
         ]
       }
-    ],
-    "react/jsx-closing-bracket-location": [
-      1,
-      "after-props"
     ]
   }
 }

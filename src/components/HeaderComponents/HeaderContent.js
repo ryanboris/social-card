@@ -1,2 +1,5 @@
-import React from 'react';
-import './Header.css';
+import React from 'react'
+
+export default function HeaderContent() {
+  return <React.Fragment />
+}
