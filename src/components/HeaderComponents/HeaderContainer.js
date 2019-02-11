@@ -7,12 +7,10 @@ import HeaderContent from './HeaderContent'
 
 export default function HeaderContainer() {
   return (
-    <React.Fragment>
-      <div css={{ display: 'flex' }}>
-        <ImageThumbnail />
-        <HeaderTitle />
-      </div>
+    <div css={{ display: 'flex', flexDirection: 'row' }}>
+      <ImageThumbnail />
+      <HeaderTitle />
       <HeaderContent />
-    </React.Fragment>
+    </div>
   )
 }

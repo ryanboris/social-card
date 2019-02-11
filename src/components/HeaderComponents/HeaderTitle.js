@@ -8,11 +8,11 @@ import moment from 'moment'
 
 export default function HeaderTitle() {
   return (
-    <div css={{ display: 'flex', width: '100vw', fontFamily: 'Arial' }}>
-      <h1 css={{ fontSize: '1.2rem', width: '8vw', margin: '15px 0 0 1vw' }}>
+    <div>
+      <span css={{ fontSize: '1.2rem', width: '8vw', margin: '15px 0 0 1vw' }}>
         Lambda School
-      </h1>
-      <p
+      </span>
+      <span
         css={{
           margin: '18px 0.5vw 0 1vw',
           color: 'darkgrey',
@@ -20,8 +20,8 @@ export default function HeaderTitle() {
         }}
       >
         @LambdaSchool
-      </p>
-      <p>
+      </span>
+      <span>
         <FontAwesomeIcon
           icon={faCircle}
           css={{
@@ -30,8 +30,8 @@ export default function HeaderTitle() {
             margin: '0',
           }}
         />
-      </p>
-      <p
+      </span>
+      <span
         css={{
           margin: '18px 0 0 0.5vw',
           color: 'darkgrey',
@@ -39,7 +39,7 @@ export default function HeaderTitle() {
         }}
       >
         {moment().format('Do MMM')}
-      </p>
+      </span>
     </div>
   )
 }
